@@ -1,0 +1,21 @@
+[submodule "tx-flow-engine"]
+	path = tx-flow-engine
+	url = git@github.com:unicitynetwork/tx-flow-engine.git
+[submodule "prefix-hash-tree"]
+	path = prefix-hash-tree
+	url = git@github.com:unicitynetwork/prefix-hash-tree.git
+[submodule "shared"]
+	path = shared
+	url = git@github.com:unicitynetwork/shared.git
+[submodule "aggregators_net"]
+	path = aggregators_net
+	url = git@github.com:unicitynetwork/aggregators_net.git
+[submodule "telegram-auth-bot"]
+	path = telegram-auth-bot
+	url = git@github.com:unicitynetwork/telegram-auth-bot.git
+[submodule "telegram-helper-client"]
+	path = telegram-helper-client
+	url = git@github.com:unicitynetwork/telegram-helper-client.git
+[submodule "utils"]
+	path = utils
+	url = git@github.com:unicitynetwork/utils.git

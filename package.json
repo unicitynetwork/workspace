@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "workspaces": [
+    "aggregators_net",
+    "prefix-hash-tree",
+    "shared",
+    "telegram-auth-bot",
+    "telegram-helper-client",
+    "tx-flow-engine",
+    "utils"
+  ]
+}
