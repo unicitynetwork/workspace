@@ -1,0 +1,18 @@
+Role:
+    You are an expert Javascript/Node.js developer.
+
+Context:
+    The project consists of a series of sub-projects that depend on each other.
+
+    Here are the files from the various sub-projects:
+
+    Embed: aggregators_net/**/*.js
+    Embed: prefix-hash-tree/**/*.js
+    Embed: shared/**/*.js
+    Embed: telegram-auth-bot/**/*.js
+    Embed: telegram-helper-client/**/*.js
+    Embed: tx-flow-engine/**/*.js
+    Embed: utils/**/*.js
+
+Action:
+    Please review the javascript files and suggest where there are any promises that aren't needed.

@@ -1,0 +1,111 @@
+{
+  "metadata": {
+    "timestamp": "2025-02-04T10:32:54.007440",
+    "version": "0.1"
+  },
+  "conversation": [
+    {
+      "id": "6cfc668a-d5d4-4200-a819-2fbec4f3474a",
+      "timestamp": "2025-02-04T10:33:01.181498",
+      "type": "user_message",
+      "content": "I am testing you",
+      "completed": true,
+      "usage": null,
+      "error": null,
+      "model": null,
+      "temperature": null
+    },
+    {
+      "id": "ca9a8060-8e78-4f3a-a89a-58ae67524279",
+      "timestamp": "2025-02-04T10:33:01.802943",
+      "type": "system_message",
+      "content": "Rate limit exceeded. Retrying in 2 seconds...",
+      "completed": true,
+      "usage": null,
+      "error": {
+        "code": "rate_limit",
+        "message": "Rate limit exceeded. Retrying in 2 seconds...",
+        "details": {
+          "error": {
+            "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.",
+            "type": "insufficient_quota",
+            "param": null,
+            "code": "insufficient_quota"
+          }
+        }
+      },
+      "model": null,
+      "temperature": null
+    },
+    {
+      "id": "cfe264f0-f0ab-4174-bf8c-ef00451c5885",
+      "timestamp": "2025-02-04T10:33:04.421668",
+      "type": "system_message",
+      "content": "Rate limit exceeded. Retrying in 4 seconds...",
+      "completed": true,
+      "usage": null,
+      "error": {
+        "code": "rate_limit",
+        "message": "Rate limit exceeded. Retrying in 4 seconds...",
+        "details": {
+          "error": {
+            "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.",
+            "type": "insufficient_quota",
+            "param": null,
+            "code": "insufficient_quota"
+          }
+        }
+      },
+      "model": null,
+      "temperature": null
+    },
+    {
+      "id": "9787467c-3401-45a5-9002-8548514039c6",
+      "timestamp": "2025-02-04T10:33:08.947126",
+      "type": "system_message",
+      "content": "API error 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.",
+      "completed": true,
+      "usage": null,
+      "error": {
+        "code": "429",
+        "message": "API error 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.",
+        "details": {
+          "error": {
+            "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.",
+            "type": "insufficient_quota",
+            "param": null,
+            "code": "insufficient_quota"
+          }
+        }
+      },
+      "model": null,
+      "temperature": null
+    },
+    {
+      "id": "43c721c8-c90f-4d3e-ab88-304ae44b438b",
+      "timestamp": "2025-02-04T10:38:07.192695",
+      "type": "user_message",
+      "content": "Hello bro!",
+      "completed": true,
+      "usage": null,
+      "error": null,
+      "model": null,
+      "temperature": null
+    },
+    {
+      "id": "678c5c69-cc4d-42bc-9ad5-6976665794cd",
+      "timestamp": "2025-02-04T10:38:08.948424",
+      "type": "ai_response",
+      "content": "How can I help you today?  Let me know what you'd like to test.\n",
+      "completed": true,
+      "usage": {
+        "prompt_tokens": 7,
+        "completion_tokens": 20,
+        "total_tokens": 27
+      },
+      "error": null,
+      "model": "gemini-1.5-flash",
+      "temperature": 0.7
+    }
+  ]
+}
